@@ -14,3 +14,61 @@ body
     min-height: 100vh;
     background: burlywood;
 }
+
+.container
+{
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .box
+{
+    position: relative;
+    width: 400;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .box h2
+{
+    font-size: 1.75em;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.container .box #ShoppingList
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.container .box #ShoppingListInput input
+{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px black;
+    outline: none;
+}
+
+.container .box #ShoppingList button
+{
+    background: #09e33c;
+    min-width: 100px;
+    font-weight: 500;
+    border: 1px solid #333;
+    cursor: pointer;
+    outline: none;
+}
+
+.container .box ol
+{
+    
+}
